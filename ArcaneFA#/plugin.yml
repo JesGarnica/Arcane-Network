@@ -1,0 +1,71 @@
+name: ArcaneFA
+author: Jesus Daniel Garnica
+main: danixl\fac\Main
+api: 3.0.0
+version: 1.0alpha
+description: Factions plugin for Arcane Factions
+commands:
+  arc.*:
+    description: All permissions
+    default: op
+    children:
+      arc.cmd.fac:
+        default: true
+      arc.cmd.area:
+        default: op
+      arc.cmd.home:
+        default: true
+      arc.cmd.sethome:
+        default: true
+      arc.cmd.delhome:
+        default: true
+      arc.cmd.spawn:
+        default: true
+      arc.cmd.lobby:
+        default: true           
+      leaf.unlimitedhomes:
+        default: op
+      arc.cmd.tpa:
+        default: true
+      arc.cmd.tpaccept:
+        default: true
+      arc.cmd.tpdecline:
+        default: true
+      arc.cmd.tpa:
+        default: true
+      arc.cmd.kit:
+        default: true
+      leaf.kit-sign:
+        default: op
+      arc.cmd.rank:
+        default: op
+      arc.cmd.viewrank:
+        default: true
+      arc.cmd.stats:
+        default: true
+      arc.cmd.pay:
+        default: true
+      arc.cmd.sendcoins:
+        default: op
+      arc.cmd.setcoins:
+        default: op
+      arc.cmd.vinfo:
+        default: true
+      arc.cmd.warpmanage:
+        default: op
+      arc.cmd.warp:
+        default: true
+      arc.cmd.repair:
+        default: op
+      arc.cmd.feed:
+        default: op
+      arc.cmd.fly:
+        default: op
+      arc.cmd.heal:
+        default: op
+      arc.cmd.edit:
+        default: op
+      arc.cmd.nb:
+        default: op
+      arc.cmd.ft:
+        default: op                                       

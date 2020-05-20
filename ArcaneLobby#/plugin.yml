@@ -1,0 +1,22 @@
+name: ArcaneLobby
+author: Jesus Daniel Garnica
+main: danixl\arcane\Main
+api: 3.0.0
+version: 1.0.0alpha
+description: Arcane Lobby
+depend: Slapper
+permissions:
+  arc.*:
+    description: All arcane permissions
+    default: false
+    children:
+      arc.cmd.ft:
+        default: op
+      arc.cmd.edit:
+        default: op
+      arc.cmd.sendcoins:
+        default: op
+      arc.cmd.pay:
+        default: true
+      arc.cmd.stats:
+        default: true

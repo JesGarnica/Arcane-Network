@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b11e2ca7-e405-4ea7-adc9-4b517b7507f9" name="Faction Server" url="http://fac.arcn.us">
+        <fileTransfer host="fac.arcn.us" port="22" rootFolder="/home/dannyg" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
