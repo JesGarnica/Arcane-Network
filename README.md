@@ -1,4 +1,4 @@
-# Arcane-Network
+# Arcane Network
 A Minecraft: Bedrock Edition Server Network
 
 This repo includes all of my old code for my collection of Minecraft servers that I operated until 2018. <br/>
