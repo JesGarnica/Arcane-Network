@@ -1,0 +1,45 @@
+name: Arcade
+author: Jesus Daniel Garnica
+main: danixl\arcade\Arcade
+api: 3.0.0
+version: 1.1.0alpha
+description: A simple but robust mini game engine for PocketMine-MP
+permissions:
+  arc.*:
+      description: All arcane permissions
+      default: false
+      children:
+        arc.cmd.ft:
+          default: op
+        arc.cmd.edit:
+          default: op
+        arc.cmd.sendcoins:
+          default: op
+        arc.cmd.pay:
+          default: true
+        arc.cmd.stats:
+          default: true
+        arc.sign:
+          default: op
+        arc.forcejoin:
+          default: op
+        arc.cmd.construct:
+          default: op
+        arc.cmd.pick:
+          default: true
+        arc.cmd.manage:
+          default: op
+        arc.cmd.lobby:
+          default: true
+        arc.cmd.getpos:
+          default: op
+        arc.cmd.heal:
+           default: op
+        arc.cmd.feed:
+           default: op
+        arc.cmd.fly:
+           default: op
+        arc.cmd.viewrank:
+             default: op
+        arc.cmd.kit:
+           default: op
